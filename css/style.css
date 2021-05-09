@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/icon?family=Fira+Mono);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+html, body, .tiles .tile .element {
+	height: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: rgb(2, 5, 7);
+	background-size: cover;
+	overflow: hidden;
+}
+body {
+	margin: 0;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+input, textarea {
+	outline: none;
+	-moz-resize: none;
+	resize: none;
+	font-family: inherit;
+}
+ul, li, ol {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+a {
+	color: rgb(255, 9, 214);
+	text-decoration: none;
+}
+input.nostyle, button.nostyle, textarea.nostyle {
+	border: 0;
+	padding: 0;
+	background: transparent;
+	background: none;
+	font-size: inherit;
+	text-transform: uppercase;
+	color: inherit;
+}
+body {
+	background-position: center;
+	background-size: cover;
+	color: white;
+}
+label{
+	color: rgb(155,25,155);
+	right: 15px;
+	position: absolute;
+}
+#terminal-header {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	height: 30px;
+	line-height: 30px;
+	background-color: rgba(29, 31, 32);
+}
+#content {
+	font-family: 'Fira Mono', monospace;
+	text-align: left;
+	font-size: 0.8rem;
+	position: absolute;
+	top: 30px;
+	left: 13px;
+	right: 13px;
+	bottom: 0;
+	overflow: auto;
+}
+.green { color: #95ff00; }
+.yellow { color: #FFDE38; }
+.red { color: #cf1717; }
+.blue { color: #0400ff; }
+.pink { color: #ff00a6; }
+.purple { color: #7118b6; }
+.bpurple { color:rgb(255, 9, 214);}
+.orange { color: rgb(226, 138, 6); }
+
+#content > div:last-child {
+	margin-bottom: 20px;
+}
+#content form { display: inline; }
+#content input {
+	text-transform: initial;
+	display:table-cell;
+	width:100%;
+	color:rgb(186,85,211);
+}
+#content p {
+	margin: 10px 0;
+	color: rgb(148,0,211);
+}
+#content b {
+	opacity: .7;
+	color: rgb(243, 109, 243);
+}
+::selection {
+  background: rgba(30, 5, 189);
+}
+::-moz-selection {
+  background: rgb(30, 5, 189);
+}
